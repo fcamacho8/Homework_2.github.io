@@ -1,20 +1,36 @@
-.container{
-    background-color:lightgrey;
-    padding-bottom:150px;
-    
-}
-
 #jumbotron{
     background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbXi0kfNgCI-K2pCPRKIfZdScYS8F7YFVaJgu1W7ml8a1iXTtb);
 }
 
 .header{
     color: lightyellow;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
+    font-size: 50px;
 }
 
 .times{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+
+#aboutMeCont{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbXi0kfNgCI-K2pCPRKIfZdScYS8F7YFVaJgu1W7ml8a1iXTtb);
+    border: 1px solid rgb(41, 31, 30);
+    margin-bottom: 24px;
+    border-radius: 20px;
+}
+.img-fluid{
+    width: 80%;
+    margin: 20px 0;
+    border: 5px solid rgb(41, 31, 30);
+    border-radius: 20px;
+}
+
+#bio{
+    margin: 20px 0;
+    font-family: monospace;
+    font-size: x-large;
+    text-indent: 40px;
+    color: lightyellow;
 }
 
