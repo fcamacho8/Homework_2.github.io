@@ -32,7 +32,8 @@ body{
     border-radius: 20px;
 }
 .img-fluid{
-    width: 80%;
+    max-width: 100%;
+    height: auto;
     margin: 20px 0;
     border: 5px solid rgb(41, 31, 30);
     border-radius: 20px;
@@ -60,3 +61,34 @@ body{
     font-family: 'Times New Roman', Times, serif;
     
 }
+.gallery{
+    text-align: center;
+    color: lemonchiffon;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#galleryCont{
+    background-image:url(https://wallpaperaccess.com/full/1554171.jpg);
+}
+
+.projectTitle{
+    
+    font-size: 20px;
+    color: lightyellow ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
