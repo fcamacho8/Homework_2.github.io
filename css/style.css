@@ -45,6 +45,7 @@ body{
     font-size: x-large;
     text-indent: 40px;
     color: lightyellow;
+    line-height: 1.6;
 }
 
 #contactMeCont{
@@ -77,18 +78,3 @@ body{
     color: lightyellow ;
     font-family: 'Times New Roman', Times, serif;
 }
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
