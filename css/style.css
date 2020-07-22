@@ -62,15 +62,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     
 }
-.gallery{
-    text-align: center;
-    color: lemonchiffon;
-    font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
-}
-#galleryCont{
-    background-image:url(https://wallpaperaccess.com/full/1554171.jpg);
-}
+
 
 .projectTitle{
     
@@ -78,3 +70,9 @@ body{
     color: lightyellow ;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.table{
+
+    margin-top: 20px;
+  }
+
